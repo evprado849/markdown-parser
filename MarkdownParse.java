@@ -32,7 +32,7 @@ public class MarkdownParse {
         ArrayList<String> links = getLinks(content);
 	    System.out.println(links);
         
-        int sizeOfLinks = links.size();
-        System.out.println("Size of Links: "+ sizeOfLinks);
+        //int sizeOfLinks = links.size();
+        //  System.out.println("Size of Links: "+ sizeOfLinks);
     }
 }
