@@ -7,5 +7,11 @@ public class MarkdownParseTest {
         assertEquals(4,1+3);
 
     }
+
+    @Test
+    public void subtraction() {
+        assertEquals(4,6-2);
+
+    }
 }
 
