@@ -17,10 +17,7 @@ public class MarkdownParse {
         int currentIndex = 0;
         
         while(currentIndex < markdown.length()) {
-            if (markdown.length() <= 0) {
-                System.out.println("No content left");
-                return null;
-            }
+            
             int openBracket = markdown.indexOf("[", currentIndex);
             int closeBracket = markdown.indexOf("]", openBracket);
             int openParen = markdown.indexOf("(", closeBracket);
